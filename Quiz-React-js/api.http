@@ -1,0 +1,16 @@
+GET http://localhost:3001/subjects HTTP/1.1
+Content-Type: application/json
+
+##############
+GET http://localhost:3001/Question HTTP/1.1
+Content-Type: application/json
+
+####################
+GET http://localhost:3001/results HTTP/1.1
+Content-Type: application/json
+####################
+POST http://localhost:3001/users HTTP/1.1
+Content-Type: application/json
+####################
+GET http://localhost:3001/subjects/1 HTTP/1.1
+Content-Type: application/json
