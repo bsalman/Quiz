@@ -1,5 +1,6 @@
 import { useSubjectsContext } from "../hooks/use-subjects-context";
 import { useState, useEffect } from "react";
+import { saveResult } from "../services/api";
 
 function ResultPage() {
   const { subjects, user, results } = useSubjectsContext();
@@ -16,8 +17,15 @@ function ResultPage() {
         (subject) => Number(subject.id) === Number(user.subjectId)
       );
       setSubject(subjectName || {}); // fallback to empty object if not found
+      saveResult(user.id, results, formattedDate, user.email)
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
     }
-  }, [subjects, user]);
+  }, [subjects, user, formattedDate, results]);
 
   return (
     <div className="card">

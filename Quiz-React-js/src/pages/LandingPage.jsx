@@ -63,7 +63,13 @@ function LandingPage() {
               <input
                 type="text"
                 placeholder="name"
-                {...register("name", { required: "Name is required" })}
+                {...register("name", {
+                  required: "Name is required",
+                  pattern: {
+                    value: /^[a-zA-ZäöüÄÖÜß\s-]{2,}$/,
+                    message: "Invalid Name "
+                  }
+                })}
                 className={` ${errors.name ? "border-red" : ""}`}
               />
               {errors.name && (

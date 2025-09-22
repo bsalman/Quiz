@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSubjectsContext } from "../hooks/use-subjects-context";
+
 function Answers({ answers, NextHandel }) {
   const { updateResults } = useSubjectsContext();
   const [counter, setCounter] = useState(0);

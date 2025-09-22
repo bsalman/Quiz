@@ -1,94 +1,58 @@
 {
   "users": [
     {
-      "id": "e9c2",
+      "id": "d28a",
       "name": "Bashar Salman",
       "email": "bashar.salman46@gmail.com",
-      "subjectId": 0
+      "subjectId": 1,
+      "results": [
+        {
+          "score": 15,
+          "date": "2025-09-22"
+        }
+      ]
     },
     {
-      "id": "e923",
-      "name": "Bashar Salman",
+      "id": "51c1",
+      "name": "Bashar ",
       "email": "bashar.salman46@gmail.com",
-      "subjectId": 2
+      "subjectId": 3
     },
     {
-      "id": "0351",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
-    },
-    {
-      "id": "a042",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
-    },
-    {
-      "id": "5932",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
-    },
-    {
-      "id": "70f3",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
-    },
-    {
-      "id": "4b8b",
-      "name": "Rawan",
-      "email": "rawan@gmail.com",
-      "subjectId": 2
-    },
-    {
-      "id": "ed95",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
-    },
-    {
-      "id": "b386",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
-    },
-    {
-      "id": "a3d1",
-      "name": "Bashar Salman",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
-    },
-    {
-      "id": "9b91",
+      "id": "2098",
       "name": "azv",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 2
+      "email": "bashar.salman46@gmail.com",
+      "subjectId": 2,
+      "results": [
+        {
+          "score": 8,
+          "date": "22.09.2025"
+        }
+      ]
     },
     {
-      "id": "69e8",
-      "name": "azv",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
-    },
-    {
-      "id": "1b85",
-      "name": "right",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
-    },
-    {
-      "id": "c632",
-      "name": "azv",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
-    },
-    {
-      "id": "19eb",
-      "name": "rech",
-      "email": "bashar.salman46@gmail.con",
-      "subjectId": 1
+      "id": "d10a",
+      "name": "rec",
+      "email": "bashar.salman46@gmail.com",
+      "subjectId": 2,
+      "results": [
+        {
+          "score": 12,
+          "date": "22.09.2025"
+        },
+        {
+          "score": "2",
+          "date": 12
+        },
+        {
+          "score": 12,
+          "date": "22.09.2025"
+        },
+        {
+          "score": 12,
+          "date": "22.09.2025"
+        }
+      ]
     }
   ],
   "subjects": [
@@ -99,6 +63,10 @@
     {
       "id": "2",
       "name": "PHP"
+    },
+    {
+      "id": "3",
+      "name": "TYPO3"
     }
   ],
   "Question": [
@@ -1611,6 +1579,811 @@
           "text": "timestamp()",
           "correct": false,
           "id": "56-4"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "subjectId": 3,
+      "question": "What is TYPO3 primarily used for?",
+      "answers": [
+        {
+          "text": "A Content Management System (CMS)",
+          "correct": true,
+          "id": "3-1"
+        },
+        {
+          "text": "An Operating System",
+          "correct": false,
+          "id": "3-2"
+        },
+        {
+          "text": "A Database",
+          "correct": false,
+          "id": "3-3"
+        },
+        {
+          "text": "A Web Browser",
+          "correct": false,
+          "id": "3-4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "subjectId": 3,
+      "question": "Which programming language is TYPO3 mainly built on?",
+      "answers": [
+        {
+          "text": "Python",
+          "correct": false,
+          "id": "3-5"
+        },
+        {
+          "text": "PHP",
+          "correct": true,
+          "id": "3-6"
+        },
+        {
+          "text": "Java",
+          "correct": false,
+          "id": "3-7"
+        },
+        {
+          "text": "C#",
+          "correct": false,
+          "id": "3-8"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "subjectId": 3,
+      "question": "Which database is commonly used with TYPO3?",
+      "answers": [
+        {
+          "text": "MySQL/MariaDB",
+          "correct": true,
+          "id": "3-9"
+        },
+        {
+          "text": "MongoDB",
+          "correct": false,
+          "id": "3-10"
+        },
+        {
+          "text": "SQLite",
+          "correct": false,
+          "id": "3-11"
+        },
+        {
+          "text": "Oracle",
+          "correct": false,
+          "id": "3-12"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "subjectId": 3,
+      "question": "Which tool in TYPO3 defines templates and layouts?",
+      "answers": [
+        {
+          "text": "Extbase",
+          "correct": false,
+          "id": "3-13"
+        },
+        {
+          "text": "Fluid",
+          "correct": true,
+          "id": "3-14"
+        },
+        {
+          "text": "Scheduler",
+          "correct": false,
+          "id": "3-15"
+        },
+        {
+          "text": "Install Tool",
+          "correct": false,
+          "id": "3-16"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "subjectId": 3,
+      "question": "What is TypoScript in TYPO3?",
+      "answers": [
+        {
+          "text": "A template configuration language",
+          "correct": true,
+          "id": "3-17"
+        },
+        {
+          "text": "A database engine",
+          "correct": false,
+          "id": "3-18"
+        },
+        {
+          "text": "A CSS framework",
+          "correct": false,
+          "id": "3-19"
+        },
+        {
+          "text": "A web server",
+          "correct": false,
+          "id": "3-20"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "subjectId": 3,
+      "question": "Where do you manage users and permissions in TYPO3?",
+      "answers": [
+        {
+          "text": "Backend User Module",
+          "correct": true,
+          "id": "3-21"
+        },
+        {
+          "text": "Scheduler Module",
+          "correct": false,
+          "id": "3-22"
+        },
+        {
+          "text": "Extension Manager",
+          "correct": false,
+          "id": "3-23"
+        },
+        {
+          "text": "Frontend Editor",
+          "correct": false,
+          "id": "3-24"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "subjectId": 3,
+      "question": "What does the TYPO3 Extension Manager do?",
+      "answers": [
+        {
+          "text": "It manages and installs TYPO3 extensions",
+          "correct": true,
+          "id": "3-25"
+        },
+        {
+          "text": "It edits TypoScript",
+          "correct": false,
+          "id": "3-26"
+        },
+        {
+          "text": "It configures Apache server",
+          "correct": false,
+          "id": "3-27"
+        },
+        {
+          "text": "It handles user logins",
+          "correct": false,
+          "id": "3-28"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "subjectId": 3,
+      "question": "Which TYPO3 component schedules recurring tasks?",
+      "answers": [
+        {
+          "text": "Scheduler",
+          "correct": true,
+          "id": "3-29"
+        },
+        {
+          "text": "Workspaces",
+          "correct": false,
+          "id": "3-30"
+        },
+        {
+          "text": "Fluid",
+          "correct": false,
+          "id": "3-31"
+        },
+        {
+          "text": "Extension Manager",
+          "correct": false,
+          "id": "3-32"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "subjectId": 3,
+      "question": "What is the default backend URL for TYPO3?",
+      "answers": [
+        {
+          "text": "/typo3",
+          "correct": true,
+          "id": "3-33"
+        },
+        {
+          "text": "/admin",
+          "correct": false,
+          "id": "3-34"
+        },
+        {
+          "text": "/cms",
+          "correct": false,
+          "id": "3-35"
+        },
+        {
+          "text": "/backend",
+          "correct": false,
+          "id": "3-36"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "subjectId": 3,
+      "question": "Which TYPO3 feature allows staged publishing of content?",
+      "answers": [
+        {
+          "text": "Workspaces",
+          "correct": true,
+          "id": "3-37"
+        },
+        {
+          "text": "Scheduler",
+          "correct": false,
+          "id": "3-38"
+        },
+        {
+          "text": "Install Tool",
+          "correct": false,
+          "id": "3-39"
+        },
+        {
+          "text": "Extension Manager",
+          "correct": false,
+          "id": "3-40"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "subjectId": 3,
+      "question": "What is Extbase in TYPO3?",
+      "answers": [
+        {
+          "text": "A PHP framework for extension development",
+          "correct": true,
+          "id": "3-41"
+        },
+        {
+          "text": "A caching system",
+          "correct": false,
+          "id": "3-42"
+        },
+        {
+          "text": "A CSS library",
+          "correct": false,
+          "id": "3-43"
+        },
+        {
+          "text": "A page template",
+          "correct": false,
+          "id": "3-44"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "subjectId": 3,
+      "question": "Which configuration file contains database credentials in TYPO3?",
+      "answers": [
+        {
+          "text": "LocalConfiguration.php",
+          "correct": true,
+          "id": "3-45"
+        },
+        {
+          "text": "settings.yaml",
+          "correct": false,
+          "id": "3-46"
+        },
+        {
+          "text": "index.php",
+          "correct": false,
+          "id": "3-47"
+        },
+        {
+          "text": "typoscript.ts",
+          "correct": false,
+          "id": "3-48"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "subjectId": 3,
+      "question": "Which TYPO3 version introduced Composer support?",
+      "answers": [
+        {
+          "text": "TYPO3 v8",
+          "correct": true,
+          "id": "3-49"
+        },
+        {
+          "text": "TYPO3 v6",
+          "correct": false,
+          "id": "3-50"
+        },
+        {
+          "text": "TYPO3 v7",
+          "correct": false,
+          "id": "3-51"
+        },
+        {
+          "text": "TYPO3 v9",
+          "correct": false,
+          "id": "3-52"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "subjectId": 3,
+      "question": "What is Fluid in TYPO3?",
+      "answers": [
+        {
+          "text": "A template rendering engine",
+          "correct": true,
+          "id": "3-53"
+        },
+        {
+          "text": "A caching framework",
+          "correct": false,
+          "id": "3-54"
+        },
+        {
+          "text": "A database connector",
+          "correct": false,
+          "id": "3-55"
+        },
+        {
+          "text": "A logging tool",
+          "correct": false,
+          "id": "3-56"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "subjectId": 3,
+      "question": "What does the Install Tool in TYPO3 do?",
+      "answers": [
+        {
+          "text": "It configures system settings and database",
+          "correct": true,
+          "id": "3-57"
+        },
+        {
+          "text": "It creates Fluid templates",
+          "correct": false,
+          "id": "3-58"
+        },
+        {
+          "text": "It manages frontend users",
+          "correct": false,
+          "id": "3-59"
+        },
+        {
+          "text": "It publishes content",
+          "correct": false,
+          "id": "3-60"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "subjectId": 3,
+      "question": "Which TYPO3 module allows content editing?",
+      "answers": [
+        {
+          "text": "Page Module",
+          "correct": true,
+          "id": "3-61"
+        },
+        {
+          "text": "Extension Manager",
+          "correct": false,
+          "id": "3-62"
+        },
+        {
+          "text": "Scheduler",
+          "correct": false,
+          "id": "3-63"
+        },
+        {
+          "text": "Install Tool",
+          "correct": false,
+          "id": "3-64"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "subjectId": 3,
+      "question": "What is the default file storage system in TYPO3?",
+      "answers": [
+        {
+          "text": "File Abstraction Layer (FAL)",
+          "correct": true,
+          "id": "3-65"
+        },
+        {
+          "text": "TYPO3 DB",
+          "correct": false,
+          "id": "3-66"
+        },
+        {
+          "text": "Media Manager",
+          "correct": false,
+          "id": "3-67"
+        },
+        {
+          "text": "Asset Pipeline",
+          "correct": false,
+          "id": "3-68"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "subjectId": 3,
+      "question": "Which PHP version is required for TYPO3 v12?",
+      "answers": [
+        {
+          "text": "PHP 8.1 or higher",
+          "correct": true,
+          "id": "3-69"
+        },
+        {
+          "text": "PHP 7.4",
+          "correct": false,
+          "id": "3-70"
+        },
+        {
+          "text": "PHP 5.6",
+          "correct": false,
+          "id": "3-71"
+        },
+        {
+          "text": "PHP 8.0 only",
+          "correct": false,
+          "id": "3-72"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "subjectId": 3,
+      "question": "How can TYPO3 be installed using modern practices?",
+      "answers": [
+        {
+          "text": "With Composer",
+          "correct": true,
+          "id": "3-73"
+        },
+        {
+          "text": "By editing PHP.ini",
+          "correct": false,
+          "id": "3-74"
+        },
+        {
+          "text": "By using FTP only",
+          "correct": false,
+          "id": "3-75"
+        },
+        {
+          "text": "By importing XML",
+          "correct": false,
+          "id": "3-76"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "subjectId": 3,
+      "question": "Which feature in TYPO3 allows previewing changes before publishing?",
+      "answers": [
+        {
+          "text": "Workspaces",
+          "correct": true,
+          "id": "3-77"
+        },
+        {
+          "text": "Fluid",
+          "correct": false,
+          "id": "3-78"
+        },
+        {
+          "text": "Scheduler",
+          "correct": false,
+          "id": "3-79"
+        },
+        {
+          "text": "File Abstraction Layer",
+          "correct": false,
+          "id": "3-80"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "subjectId": 3,
+      "question": "What is the extension key used for?",
+      "answers": [
+        {
+          "text": "To uniquely identify an extension",
+          "correct": true,
+          "id": "3-81"
+        },
+        {
+          "text": "To encrypt backend passwords",
+          "correct": false,
+          "id": "3-82"
+        },
+        {
+          "text": "To store cache files",
+          "correct": false,
+          "id": "3-83"
+        },
+        {
+          "text": "To configure TypoScript",
+          "correct": false,
+          "id": "3-84"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "subjectId": 3,
+      "question": "Which TYPO3 cache layer stores rendered pages?",
+      "answers": [
+        {
+          "text": "Page Cache",
+          "correct": true,
+          "id": "3-85"
+        },
+        {
+          "text": "Opcode Cache",
+          "correct": false,
+          "id": "3-86"
+        },
+        {
+          "text": "Fluid Cache",
+          "correct": false,
+          "id": "3-87"
+        },
+        {
+          "text": "File Cache",
+          "correct": false,
+          "id": "3-88"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "subjectId": 3,
+      "question": "What is the TYPO3 Extension Repository (TER)?",
+      "answers": [
+        {
+          "text": "A central repository for TYPO3 extensions",
+          "correct": true,
+          "id": "3-89"
+        },
+        {
+          "text": "A GitHub alternative",
+          "correct": false,
+          "id": "3-90"
+        },
+        {
+          "text": "A database backup tool",
+          "correct": false,
+          "id": "3-91"
+        },
+        {
+          "text": "A web server",
+          "correct": false,
+          "id": "3-92"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "subjectId": 3,
+      "question": "Which file defines TYPO3 extensions metadata?",
+      "answers": [
+        {
+          "text": "ext_emconf.php",
+          "correct": true,
+          "id": "3-93"
+        },
+        {
+          "text": "composer.json",
+          "correct": false,
+          "id": "3-94"
+        },
+        {
+          "text": "typoscript.ts",
+          "correct": false,
+          "id": "3-95"
+        },
+        {
+          "text": "index.php",
+          "correct": false,
+          "id": "3-96"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "subjectId": 3,
+      "question": "What is the role of TSconfig in TYPO3?",
+      "answers": [
+        {
+          "text": "To configure backend and user settings",
+          "correct": true,
+          "id": "3-97"
+        },
+        {
+          "text": "To store frontend cache",
+          "correct": false,
+          "id": "3-98"
+        },
+        {
+          "text": "To manage SQL queries",
+          "correct": false,
+          "id": "3-99"
+        },
+        {
+          "text": "To define Fluid layouts",
+          "correct": false,
+          "id": "3-100"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "subjectId": 3,
+      "question": "Which file is the main entry point of TYPO3?",
+      "answers": [
+        {
+          "text": "index.php",
+          "correct": true,
+          "id": "3-101"
+        },
+        {
+          "text": "typo3conf.php",
+          "correct": false,
+          "id": "3-102"
+        },
+        {
+          "text": "LocalConfiguration.php",
+          "correct": false,
+          "id": "3-103"
+        },
+        {
+          "text": "ext_tables.php",
+          "correct": false,
+          "id": "3-104"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "subjectId": 3,
+      "question": "What is the function of TYPO3’s Backend Layouts?",
+      "answers": [
+        {
+          "text": "They define the structure of content columns on pages",
+          "correct": true,
+          "id": "3-105"
+        },
+        {
+          "text": "They configure extensions",
+          "correct": false,
+          "id": "3-106"
+        },
+        {
+          "text": "They handle caching",
+          "correct": false,
+          "id": "3-107"
+        },
+        {
+          "text": "They store user passwords",
+          "correct": false,
+          "id": "3-108"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "subjectId": 3,
+      "question": "Which TYPO3 component handles multilingual websites?",
+      "answers": [
+        {
+          "text": "Localization/Internationalization (L10n/i18n)",
+          "correct": true,
+          "id": "3-109"
+        },
+        {
+          "text": "Scheduler",
+          "correct": false,
+          "id": "3-110"
+        },
+        {
+          "text": "Fluid",
+          "correct": false,
+          "id": "3-111"
+        },
+        {
+          "text": "Extbase",
+          "correct": false,
+          "id": "3-112"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "subjectId": 3,
+      "question": "Which template engine is default in TYPO3?",
+      "answers": [
+        {
+          "text": "Fluid",
+          "correct": true,
+          "id": "3-113"
+        },
+        {
+          "text": "Twig",
+          "correct": false,
+          "id": "3-114"
+        },
+        {
+          "text": "Smarty",
+          "correct": false,
+          "id": "3-115"
+        },
+        {
+          "text": "Blade",
+          "correct": false,
+          "id": "3-116"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "subjectId": 3,
+      "question": "What is the default table where TYPO3 stores page records?",
+      "answers": [
+        {
+          "text": "pages",
+          "correct": true,
+          "id": "3-117"
+        },
+        {
+          "text": "tt_content",
+          "correct": false,
+          "id": "3-118"
+        },
+        {
+          "text": "sys_template",
+          "correct": false,
+          "id": "3-119"
         }
       ]
     }
